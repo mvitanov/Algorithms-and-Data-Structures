@@ -258,7 +258,7 @@ class IntBST {
         }
 };
 
-void print(int x)
+void print(int x) // to be passed as a funptr in foreach or forall
 {
     cout << x << " ";
 }
